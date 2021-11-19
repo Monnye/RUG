@@ -29,6 +29,25 @@ body::before {
     z-index: -1;
 }
 
+@media only screen and (max-width: 600px) {
+    .span {
+        left: 13px;
+        top: 16px;
+        z-index: 5;
+    }
+}
+
+@media only screen and (max-width: 352px) {
+    .span {
+        left: 13px;
+        top: 16px;
+        bottom: px;
+        z-index: 5;
+    }
+}
+
+
+
 .user-profile {
     background-color: #dcdcdc;
     margin-top: 6%;
@@ -57,13 +76,13 @@ body::before {
 }
 
 .profile-bottom {
-    padding: 3rem 3rem rem 3rem;
+    padding: 2rem 2rem 1rem 2rem;
 }
 
 .profile-bottom .profile-info {
     background-color: #fff;
     padding: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     border-radius: 1rem;
     display: flex;
     align-items: center;
@@ -81,7 +100,7 @@ body::before {
 }
 
 button {
-    margin-top: 2rem;
+    margin-top: 1rem;
     outline: none;
     border: none;
     padding: 1rem;
@@ -94,10 +113,4 @@ button {
 button:hover {
     background: linear-gradient(to right, #000428, #004e92);
     color: #fff;
-}
-
-@media(max-width: 384px) {
-    .user-profile {
-        max-width: 100%;
-    }
 }
