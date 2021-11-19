@@ -10,6 +10,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    font-weight: 200px;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
     background: url(assets/images/city.jpg);
@@ -24,8 +25,6 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    /* background-color: #000; */
-    /* opacity: 0.6; */
     z-index: -1;
 }
 
@@ -50,7 +49,7 @@ body::before {
 
 .user-profile {
     background-color: #dcdcdc;
-    margin-top: 6%;
+    margin-top: 10%;
     width: 100%;
     max-width: 500px;
     border-radius: 10px;
@@ -60,8 +59,8 @@ body::before {
 
 .profile-top {
     background: linear-gradient(to right, #000428, #004e92);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 2rem;
+    padding: 0rem;
+    ;
     text-align: center;
     color: #fff;
 }
@@ -76,7 +75,8 @@ body::before {
 }
 
 .profile-bottom {
-    padding: 2rem 2rem 1rem 2rem;
+    padding: 0rem 1em 1rem 1rem;
+    margin: -4px;
 }
 
 .profile-bottom .profile-info {
