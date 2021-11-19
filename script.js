@@ -21,7 +21,7 @@ function displayUserData(user) {
     location.innerText = `${user.location.country}`;
     login.innerText = `${user.login.password}`;
     dob.innerText = `${user.dob.date}`;
-    image.setAttribute('src', `${user.picture.medium}`);
+    image.setAttribute('src', `${user.picture.large}`);
 
 }
 
