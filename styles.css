@@ -40,7 +40,17 @@ body::before {
     .span {
         left: 13px;
         top: 16px;
-        bottom: px;
+        bottom: 1px;
+        z-index: 5;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .span {
+        left: 13px;
+        top: 16px;
+        bottom: 1px;
         z-index: 5;
     }
 }
@@ -60,6 +70,7 @@ body::before {
 .profile-top {
     background: linear-gradient(to right, #000428, #004e92);
     padding: 0rem;
+
     text-align: center;
     color: #fff;
 }
